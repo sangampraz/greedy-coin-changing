@@ -15,10 +15,10 @@ The greedy approach works by always choosing the largest possible coin that does
 
 ## 3. Objectives 
 The objective of the project are:
-* - implement the greedy coin changing algorithm in c++
-* - understand how greedy strategies work
-* - practice working with vectors and basic algorithm techniques
-* - analyze the time and space somplexity of the algorithm
+* implement the greedy coin changing algorithm in c++
+* understand how greedy strategies work
+* practice working with vectors and basic algorithm techniques
+* analyze the time and space somplexity of the algorithm
 
 
 ## 4. Input and Output 
@@ -30,17 +30,17 @@ The program takes a list of coin denomination (hardcoded in the program) and an 
 #### Output
 The program outputs the coins selected to form the maount and the total amount of coins used. 
 ###### Example:
-* Coins selected are: 25 5 1 1 1 1
+* Coins selected are: 25, 5, 1, 1, 1, 1
 * Total number of coins used: 6
 
 
 ## 5. Algorithm / Approach 
 The program follows the greedy approach to the problem.
-* - sort the coin denominations in ascending order.
-* - while the remaining amount is not zero:
-  * - find the largest coin value that is less than or equal to the remaining amount
-  * - subtract the coin value from the remaining amount
-  * - add the coin to the list of selected coins 
+* sort the coin denominations in ascending order.
+* while the remaining amount is not zero:
+  * find the largest coin value that is less than or equal to the remaining amount
+  * subtract the coin value from the remaining amount
+  * add the coin to the list of selected coins 
 * repeat until the remaining amount becomes zero
 * return the list of selected coins
 This approach ensures that at each step the largest coin is selected. 
