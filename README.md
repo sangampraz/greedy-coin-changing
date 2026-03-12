@@ -85,6 +85,7 @@ Then enter the amount when prompted.
 * Enter the amount: 34
 * Coins selected are: 25 5 1 1 1 1
 * Total number of coins used: 6
+  
 ![alt text](coin-changing.png)
 
 
